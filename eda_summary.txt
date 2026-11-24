@@ -1,0 +1,24 @@
+FINANCIAL FRAUD DETECTION EDA
+Total transactions: 1048575
+Fraud transactions: 1142
+Genuine transactions: 1047433
+
+Transaction types:
+PAYMENT: 353873
+CASH_OUT: 373641
+CASH_IN: 227130
+TRANSFER: 86753
+DEBIT: 7178
+
+Missing values:
+step: 0
+type: 0
+amount: 0
+nameOrig: 0
+oldbalanceOrg: 0
+newbalanceOrig: 0
+nameDest: 0
+oldbalanceDest: 0
+newbalanceDest: 0
+isFraud: 0
+isFlaggedFraud: 0

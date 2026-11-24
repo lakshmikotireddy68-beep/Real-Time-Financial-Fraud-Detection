@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.env.*
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Runtime outputs
+kafka-data/
+outputs/spark_checkpoint/
+logs/
+*.log
+
+# Model artifacts and generated datasets
+models/*.pkl
+models/*.joblib
+models/*.model
+outputs/*.csv
+
+# Test and coverage files
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Kafka installation and runtime files
+kafka_2.13-4.4.0/
+kafka-error.txt
+kafka_2.13-4.4.0/kafka-start-error.txt
+kafka_2.13-4.4.0/kafka-startup-error.txt
+
+# Local database
+database/fraud_detection.db
+
+outputs/stream_error.txt
